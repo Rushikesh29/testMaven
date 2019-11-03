@@ -17,6 +17,6 @@ public class LoginTest {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.get("https://www.google.com");
-		System.out.println("login is executed succefully");
+		System.out.println("login is executed succefully...");
 	}
 }
